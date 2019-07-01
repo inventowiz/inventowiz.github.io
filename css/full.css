@@ -1,0 +1,25 @@
+.full {
+    background: url('../images/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+}
+
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body {
+  background: transparent;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+} 

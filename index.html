@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="bmargosian.com">
+    <meta name="author" content="Brian Margosian">
+
+    <title>Brian Margosian</title>
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/compatibility.js"></script>
+    <script src="js/pdf.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/full.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17396162-1"></script>
+    <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+
+      gtag('config', 'UA-17396162-1');
+    </script>
+
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+
+      <div class="navbar-header">
+      <a class="navbar-brand">Brian Margosian</a>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right nav-tabs">
+  <!-- links with icons to social media websites -->
+  <li><a href="http://www.last.fm/user/inventowiz"><img src="./images/social/lastfm.png" alt="LastFM" /></a></li>
+  <li><a href="https://twitter.com/inventowiz"><img src="./images/social/twitter.png"alt="Twitter" /></a></li>
+  <li><a href="http://www.linkedin.com/pub/brian-margosian/56/76b/a18"><img src="./images/social/linkedin.png" alt="LinkedIn" /></a></li>
+  <li><a href="http://www.facebook.com/inventowiz"><img src="./images/social/facebook.png" alt="Facebook" /></a></li>                                                              
+  <li><a href="http://www.github.com/inventowiz"><img src="./images/social/github.png" alt="Github" /></a></li>
+     </ul>
+    </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9">
+          <div class="well" id="resume-container">
+	    <h2>Welcome. </h2>
+	    <h3>Nothing much to see here.</h3>
+
+	  <!--  Disable resume for now
+          <canvas id="the-canvas" style="border: 1px solid"></canvas>
+
+          <script>
+          var url = 'files/Brian-Margosian-resume-sep14.pdf';
+
+          PDFJS.disableWorker = true;
+          //
+          // Asynchronous download PDF
+          //
+          PDFJS.getDocument(url).then(function getPdfResume(pdf) {
+            //
+            // Fetch the first page
+            //
+            pdf.getPage(1).then(function getPageResume(page) {
+              var viewport = page.getViewport(1);
+              var scale = $("#resume-container").width() / viewport.width;
+	      viewport = page.getViewport(scale);
+
+              //
+              // Prepare canvas using PDF page dimensions
+              //
+              var canvas = document.getElementById('the-canvas');
+              var context = canvas.getContext('2d');
+              canvas.height = viewport.height;
+              canvas.width = viewport.width;
+
+              //
+              // Render PDF page into canvas context
+              //
+              page.render({canvasContext: context, viewport: viewport});
+            });
+          });
+          </script>
+	  -->
+
+          </div>
+        </div>
+        <div class="col-sm-3 well">
+          <img class="img-responsive center-block" src="images/me_large.jpg" alt="Brian Margosian">
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
