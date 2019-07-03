@@ -1,6 +1,0 @@
-[submodule "brianandsara.us"]
-	path = brianandsara.us
-	url = git@github.com:inventowiz/brianandsara.us.git
-[submodule "isitkampyet.bmargosian.com"]
-	path = isitkampyet.bmargosian.com
-	url = git@github.com:inventowiz/isitkampyet.bmargosian.com
