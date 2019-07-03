@@ -1,5 +1,6 @@
 .full {
-    //background: url('../images/bg.jpg') no-repeat center center fixed;
+    /* background: url('../images/bg.jpg') no-repeat center center fixed; */
+    background-color: #e6e6e6;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
